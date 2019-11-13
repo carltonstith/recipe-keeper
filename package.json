@@ -1,0 +1,29 @@
+{
+  "name": "recipe-keeper",
+  "version": "1.0.0",
+  "description": "Recipe keeper app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carltonstith/recipe-keeper.git"
+  },
+  "author": "Carlton Stith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carltonstith/recipe-keeper/issues"
+  },
+  "homepage": "https://github.com/carltonstith/recipe-keeper#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
