@@ -26,8 +26,7 @@ $ npm run build
 $ npm start
 ```
 
-Compiled code will be in `./server/public/dist/` folder.
-Site will be shown at http://localhost:5000/
+API will be shown at http://localhost:5000/api/recipes
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
