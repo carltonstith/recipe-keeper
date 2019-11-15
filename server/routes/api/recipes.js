@@ -9,6 +9,13 @@ router.get('/', async (req, res) => {
     res.send(await recipes.find({}).toArray());
 });
 
+// Get Single Recipe
+router.get('/:id', async (req, res) => {
+  const recipes = await loadRecipesCollection();
+  await recipes.findOne({_id: new mongodb.ObjectId( req.params.id )})
+  res.send(await recipes.find({}).limit(1).toArray())
+});
+
 // Add Recipe
 router.post('/', async (req, res) => {
     const recipes = await loadRecipesCollection();
