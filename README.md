@@ -2,6 +2,8 @@
 
 This is a full-stack recipe keeper application built using MongoDB, Express, Vue, and Node.
 
+[Link]('https://github.com/carltonstith/recipe-keeper-client') to the client folder
+
 ## Requirements
 - `Mongodb` This project requires `mongodb` as the database.
 - Basic `vue.js` skills
